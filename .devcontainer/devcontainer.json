@@ -26,6 +26,23 @@
     "frontend": "cd CPR-Music && npm run dev"
   },
 
+  // https://github.com/github/codespaces-django/blob/main/.devcontainer/devcontainer.json#L24-L30
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    },
+    "8000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [3000, 8000],
+  "postAttachCommand": {
+    "backend": "cd CPR-Music-Backend && python manage.py runserver",
+    "frontend": "cd CPR-Music && npm run dev"
+  },
+
   // Configure tool-specific properties.
   "customizations": {
     // Configure properties specific to VS Code.
