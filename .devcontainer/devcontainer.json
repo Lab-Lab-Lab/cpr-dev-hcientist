@@ -55,6 +55,18 @@
             "issues": "write",
             "contents": "write"
           }
+        },
+        "JMU-CIME/CPR-Music": {
+          "permissions": {
+            "issues": "write",
+            "contents": "read"
+          }
+        },
+        "JMU-CIME/CPR-Music-Backend": {
+          "permissions": {
+            "issues": "write",
+            "contents": "read"
+          }
         }
       },
       "extensions": [
