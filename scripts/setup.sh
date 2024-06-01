@@ -1,6 +1,6 @@
 #!/bin/bash
-git clone https://github.com/hcientist/CPR-Music-Backend.git 
-git clone https://github.com/hcientist/CPR-Music.git 
+git clone https://github.com/Lab-Lab-Lab/CPR-Music-Backend-hcientist.git 
+git clone https://github.com/Lab-Lab-Lab/CPR-Music-hcientist.git 
 cd CPR-Music-Backend 
 cp .env.local .env 
 echo "CORS_ALLOWED_ORIGIN_REGEXES=^http://localhost:3000$,^https://$CODESPACE_NAME-3000.$GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN$"  >> .env
