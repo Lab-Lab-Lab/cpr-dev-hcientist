@@ -1,7 +1,6 @@
 # cpr-dev
 Codespace for development of MusicCPR (unless it ends up too expensive or too slow)
 
-
 ## Setup
 1. ensure that you have a fork of both the frontend repository and the backend repositories in **your github account**:
     1. [frontend](https://github.com/Lab-Lab-Lab/CPR-Music)
