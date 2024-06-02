@@ -1,21 +1,16 @@
 # cpr-dev
 Codespace for development of MusicCPR (unless it ends up too expensive or too slow)
 
+
 ## Setup
-1. ensure that you have a fork of both the frontend repository and the backend repositories in **THIS github organization (`Lab-Lab-Lab`)**:
+1. ensure that you have a fork of both the frontend repository and the backend repositories in **your github account**:
     1. [frontend](https://github.com/Lab-Lab-Lab/CPR-Music)
-        1. so you should have a repo at _almost_ **EXACTLY** this url `https://github.com/Lab-Lab-Lab/CPR-Music-YOURUSERNAME`
-            * for example mine is `https://github.com/Lab-Lab-Lab/CPR-Music-hcientist`
+        1. so you should have a repo at _almost_**EXACTLY** this url`https://github.com/YOUR_GITHUB_USER_NAME/CPR-Music`
     1. [backend](https://github.com/Lab-Lab-Lab/CPR-Music-Backend)
-        1. so you should have a repo at _almost_ **EXACTLY** this url`https://github.com/Lab-Lab-Lab/CPR-Music-Backend-YOURUSERNAME`
-            * for example mine is `https://github.com/Lab-Lab-Lab/CPR-Music-Backend-hcientist`
+        1. so you should have a repo at _almost_**EXACTLY** this url`https://github.com/YOUR_GITHUB_USER_NAME/CPR-Music-Backend`
 1. click the green "Use this template" button on this repository to create a new repository for your own development on this project, but **create it also in _this_ organization (`Lab-Lab-Lab`) so that you'll have $free access to the codespace**
-    1. in the dropdown for the `Owner`, choose `Lab-Lab-Lab`
-    1. you will need to name it something different than just `cpr-dev`, i suggest just adding a suffix to the repo name, e.g. `cpr-dev-hcientist`.
-    1. probably make the repository `public`
-1. in the resulting repo, you need to replace `Lab-Lab-Lab/CPR-Music` `Lab-Lab-Lab/CPR-Music-Backend` and  with your github repo names in the following files:
+1. in the resulting repo, you need to replace `Lab-Lab-Lab` with your github username in the following files:
     1. `.devcontainer/devcontainer.json`
-        * [here's mine if you want to check your work](https://github.com/Lab-Lab-Lab/cpr-dev-hcientist/blob/main/.devcontainer/devcontainer.json#L47,L53)
     1. `scripts/setup.sh`
 1. commit those changes to your `cpr-dev` repository.
 1. [install the GitHub CLI if you haven't already](https://github.com/cli/cli#installation)
