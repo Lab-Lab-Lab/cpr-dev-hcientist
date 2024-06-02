@@ -1,5 +1,5 @@
 # cpr-dev
-Codespace for development of MusicCPR (unless it ends up too expensive or too slow)
+Dev Container config for development of MusicCPR to support simpler onboarding either via (remote)  GitHub Codespaces or (local) docker container (unless it ends up too expensive or too slow).
 
 
 ## Setup
