@@ -19,12 +19,21 @@ Dev Container config for development of MusicCPR to support simpler onboarding e
     1. `scripts/setup.sh`
         * [here's mine if you want to check your work](https://github.com/Lab-Lab-Lab/cpr-dev-hcientist/blob/main/scripts/setup.sh#L2-L3)
 1. commit those changes to your `cpr-dev-YOURUSERNAME` reopsitory.
+1. On your computer, [install the GitHub CLI](https://github.com/cli/cli#installation) if you haven't already.
+1. On your computer, [install Docker](https://docs.docker.com/get-docker/) if you haven't already.
 
 ## Usage
+
+### In-browser Codespace
 1. click the green `Code` button on your `cpr-dev` repository
 1. select the `Codespaces` tab in the resulting popover
 1. If you already have a codespace, click on it to launch it. 
 1. Else, if you have no codespace for this repo, click the green `Create codespace on main` button
+
+### Local Container
+1. **using its HTTPS url** clone your `cpr-dev-USERNAME` repository to your local machine 
+1. press the do everything hotkey <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (or on macOS <kbd>command</kbd>+<kbd>shift</kbd>+<kbd>P</kbd>), type `reopen`, and then select `Dev Containers: Reopen in Container`
+
 
 ## Resources
 
@@ -39,3 +48,9 @@ I'm unsure what info will help do this well, but here's where i'm looking first:
 1. should we setup backend that's deployed somewhere (e.g. dev.musiccpr.org or similar) to accept requests from frontend running locally and/or in codespace?
     1. in which case should we start by creating only a codespace/devcontainer for frontend?
 2. it seems like maybe sqlite supports everything we need for local, so should we revert to suggesting student devs/newbs/everyone use sqlite in local?
+
+## Notes
+
+### Tradeoffs
+1. to do in-browser development in a codespace, we need to have the cpr-dev, frontend, and backend repos all forked (well, i guess cpr-dev isn't exactly a "fork") within Lab-Lab-Lab, for EACH developer...
+1. in-browser sucks on a bad connection...
