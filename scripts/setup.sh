@@ -53,4 +53,3 @@ if [ "$CODESPACES" = "true" ]; then
 else
   echo "setup.sh 19" >> /var/log/cpr-dev.log
 fi
-gh auth login -p https -h github.com -w
